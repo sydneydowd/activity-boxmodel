@@ -19,9 +19,76 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family:Times New Roman,serif;
 }
 
 img {
 	width: 100%;
     display: block;
 }
+
+body {
+    padding:0;
+    margin:0;
+    background-color:#CCC
+}
+
+.masthead {
+    background-color: red;
+    overflow:hidden;
+}
+
+.logo {
+    height:4.5rem;
+    width:auto;
+    margin:.5rem 5%;
+}
+
+article {
+    margin:0;
+    padding:0 5%;
+    overflow:hidden;
+}
+
+h1 {
+    margin:1.5rem 0;
+    font-size: 5rem;
+    line-height:4.5rem;
+}
+
+h1 + p {
+    font-size:1.25rem;
+    margin:0 0 1.5rem;
+}
+
+p {
+    line-height:1.5rem;
+    margin:0 0 1.5rem;
+    font-size:1.25rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
+
+figcaption {
+    font-size:.75rem;
+    margin: .5rem 0 0;
+}
+
+footer {
+    background-color:red;
+    overflow:hidden;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: .5rem 5% 5rem;
+    color:white
+}
+
+footer a {
+    color:white;
+} 
+
